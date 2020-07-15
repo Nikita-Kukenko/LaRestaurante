@@ -1,0 +1,21 @@
+@media (max-width: 1441px) {
+	.header__logo {
+		max-width: 212px;
+		max-height: 73.3px;
+	}
+}
+
+@media (max-width: 772px) {
+	.header__logo {
+		max-width: 106.3px;
+		max-height: 36.6px;
+	}
+	.header {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-row: 1fr 1fr 1fr;
+	}
+	.header__paragraph {
+		margin: 0 auto;
+	}
+}
