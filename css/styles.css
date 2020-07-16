@@ -94,10 +94,21 @@ h1, h2, h3, h4, h5, h6 {
   .welcome .grid-item {
     max-height: 1103px;
     border-radius: 50px;
-    border: 3px solid #f1ac11; }
+    border: 3px solid #f1ac11;
+    padding: 46px; }
 
 .welcome__logo {
   background: url(../image/top-1.png) center/cover no-repeat; }
+
+.logo__wrapper {
+  max-width: 319px;
+  min-width: 150px;
+  margin: 0 20px 0 0; }
+  .logo__wrapper img {
+    max-width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover; }
 
 .welcome__nav {
   background: url(../image/top-2.png) center/cover no-repeat; }

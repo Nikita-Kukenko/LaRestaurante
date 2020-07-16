@@ -123,11 +123,23 @@
 		max-height: 1103px;
 		border-radius: 50px;
 		border: 3px solid #f1ac11;
+		padding: 46px;
 	}
 }
 .welcome__logo {
 	background: url(../image/top-1.png) center/cover no-repeat;
+}
+.logo__wrapper {
+	max-width: 319px;
+	min-width: 150px;
+	margin: 0 20px 0 0;
+	img {
+		max-width: 100%;
+		min-height: 100%;
+		object-fit: cover;
 	}
+}
+
 .welcome__nav {
 	background: url(../image/top-2.png) center/cover no-repeat;
 }
