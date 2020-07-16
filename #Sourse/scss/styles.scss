@@ -116,11 +116,11 @@
 
 
 .welcome {
-	height: 1103px;
+	// height: 1103px;
 	display: grid;
 	grid-template-columns: 1fr 1.4fr 0.8fr;
 	.grid-item {
-		max-height: 1103px;
+		height: 1103px;
 		border-radius: 50px;
 		border: 3px solid #f1ac11;
 		padding: 46px;
@@ -137,6 +137,56 @@
 		max-width: 100%;
 		min-height: 100%;
 		object-fit: cover;
+	}
+}
+
+.welcome__fullMenu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 422px;
+	height: 256px;
+	margin: 0 auto;
+	position: relative;
+	img {
+		box-shadow: 0px 0px 27px 3px rgba(0,0,0,0.3);
+		opacity: 0.4;
+		max-width: 100%;
+		min-height: 100%;
+		object-fit: cover;
+	}
+}
+
+.fullMenu__wrapper {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h2 {
+		font-family: MyriadPro;
+		font-size: 38px;
+		line-height: 1.2;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: #2b2b2b;
+		max-width: 183px;
+		text-align: center;
+	}
+	button {
+		font-family: MyriadPro;
+		font-size: 12px;
+		line-height: 1.2;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: #2b2b2b;
+		width: 140px;
+		height: 30px;
+		background-color: #f1ac11;
+		border-radius: 4.0px;
 	}
 }
 

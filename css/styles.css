@@ -86,13 +86,12 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal; }
 
 .welcome {
-  height: 1103px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1.4fr 0.8fr;
   grid-template-columns: 1fr 1.4fr 0.8fr; }
   .welcome .grid-item {
-    max-height: 1103px;
+    height: 1103px;
     border-radius: 50px;
     border: 3px solid #f1ac11;
     padding: 46px; }
@@ -109,6 +108,71 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 100%;
     -o-object-fit: cover;
     object-fit: cover; }
+
+.welcome__fullMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 422px;
+  height: 256px;
+  margin: 0 auto;
+  position: relative; }
+  .welcome__fullMenu img {
+    -webkit-box-shadow: 0px 0px 27px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 27px 3px rgba(0, 0, 0, 0.3);
+    opacity: 0.4;
+    max-width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover; }
+
+.fullMenu__wrapper {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .fullMenu__wrapper h2 {
+    font-family: MyriadPro;
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #2b2b2b;
+    max-width: 183px;
+    text-align: center; }
+  .fullMenu__wrapper button {
+    font-family: MyriadPro;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #2b2b2b;
+    width: 140px;
+    height: 30px;
+    background-color: #f1ac11;
+    border-radius: 4.0px; }
 
 .welcome__nav {
   background: url(../image/top-2.png) center/cover no-repeat; }
