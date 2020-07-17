@@ -123,9 +123,9 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 422px;
-  height: 256px;
-  margin: 0 auto;
+  max-width: 422px;
+  max-height: 256px;
+  margin: 277px auto 0;
   position: relative; }
   .welcome__fullMenu img {
     -webkit-box-shadow: 0px 0px 27px 3px rgba(0, 0, 0, 0.3);
@@ -135,6 +135,8 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 100%;
     -o-object-fit: cover;
     object-fit: cover; }
+    .welcome__fullMenu img:hover {
+      opacity: 1; }
 
 .fullMenu__wrapper {
   position: absolute;
@@ -151,6 +153,11 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  .fullMenu__wrapper img {
+    max-width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover; }
   .fullMenu__wrapper h2 {
     font-family: MyriadPro;
     font-size: 38px;
@@ -159,7 +166,6 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #2b2b2b;
-    max-width: 183px;
     text-align: center; }
   .fullMenu__wrapper button {
     font-family: MyriadPro;
@@ -173,9 +179,37 @@ h1, h2, h3, h4, h5, h6 {
     height: 30px;
     background-color: #f1ac11;
     border-radius: 4.0px; }
+  .fullMenu__wrapper .first_title {
+    max-width: 183px; }
+  .fullMenu__wrapper .second_title {
+    max-width: 250px; }
 
 .welcome__nav {
   background: url(../image/top-2.png) center/cover no-repeat; }
+  .welcome__nav .nav {
+    max-width: 657px;
+    height: 67px;
+    margin: 0 auto; }
+    .welcome__nav .nav ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+    .welcome__nav .nav a {
+      text-decoration: none; }
+    .welcome__nav .nav li {
+      font-family: MyriadPro-It;
+      font-size: 22px;
+      line-height: 1.2;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #fff; }
+      .welcome__nav .nav li:hover {
+        color: #f1ac11;
+        border-bottom: 1px solid #f1ac11; }
 
 .welcome__secrets {
   background: url(../image/top-3.png) center/cover no-repeat; }
