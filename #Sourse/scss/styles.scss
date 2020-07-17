@@ -16,14 +16,16 @@
 // 	}
 // }
 
+* {
+	transition: 1s;
+}
 
 .welcome {
-	// height: 1103px;
 	display: grid;
-	grid-template-columns: 1fr 1.4fr 0.8fr;
+	grid-template-columns: 1fr 1.4fr 1fr;
 	.grid-item {
 		height: 1103px;
-		border-radius: 50px;
+		// border-radius: 50px;
 		border: 3px solid #f1ac11;
 		padding: 46px;
 	}
@@ -76,7 +78,6 @@
 	}
 	h2 {
 		font-family: MyriadPro;
-		font-size: 38px;
 		line-height: 1.2;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -97,8 +98,18 @@
 		background-color: #f1ac11;
 		border-radius: 4.0px;
 	}
-	.first_title { max-width: 183px; }
-	.second_title { max-width: 250px; }
+	.first_title {
+		max-width: 183px;
+		font-size: 38px;
+	}
+	.second_title {
+		max-width: 250px;
+		font-size: 38px;
+	}
+	.third_title {
+		max-width: 157px;
+		font-size: 38px;
+	}
 }
 
 .welcome__nav {
@@ -141,3 +152,5 @@
 .contacts {}
 
 .footer {}
+
+@import "media.scss";
