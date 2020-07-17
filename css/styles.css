@@ -213,3 +213,5 @@ h1, h2, h3, h4, h5, h6 {
 
 .welcome__secrets {
   background: url(../image/top-3.png) center/cover no-repeat; }
+  .welcome__secrets .secrets__position {
+    margin: 387px auto 0; }
