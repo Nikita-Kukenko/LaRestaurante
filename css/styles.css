@@ -267,3 +267,21 @@ h1, h2, h3, h4, h5, h6 {
   .fullMenu__wrapper h2.second_title {
     font-size: 26px;
     max-width: 160px; } }
+
+@media (max-width: 1072px) {
+  .welcome {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1.2fr 1fr;
+    grid-template-rows: 1fr 1.2fr 1fr; }
+  .fullMenu__wrapper h2.third_title {
+    font-size: 32px; }
+  .fullMenu__wrapper h2.first_title {
+    font-size: 32px; }
+  .fullMenu__wrapper h2.second_title {
+    font-size: 32px;
+    max-width: 230px; }
+  .welcome__nav .nav li {
+    font-size: 22px; }
+  .welcome__fullMenu {
+    margin: 5px auto 0; } }

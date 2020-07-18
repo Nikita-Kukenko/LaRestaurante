@@ -49,7 +49,7 @@
 	.welcome__secrets .secrets__position {
 		margin: 130px auto 0;
 	}
-			.welcome__nav .nav li {
+	.welcome__nav .nav li {
 		font-size: 10px;
 	}
 	.fullMenu__wrapper h2.third_title {
@@ -65,5 +65,24 @@
 }
 
 @media (max-width: 1072px) {
-	
+	.welcome {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1.2fr 1fr;
+	}
+	.fullMenu__wrapper h2.third_title {
+		font-size: 32px;
+	}
+	.fullMenu__wrapper h2.first_title {
+		font-size: 32px;
+	}
+	.fullMenu__wrapper h2.second_title {
+		font-size: 32px;
+		max-width: 230px;
+	}
+	.welcome__nav .nav li {
+		font-size: 22px;
+	}
+	.welcome__fullMenu {
+		margin: 5px auto 0;
+	}
 }
