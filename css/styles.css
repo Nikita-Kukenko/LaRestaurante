@@ -272,8 +272,8 @@ h1, h2, h3, h4, h5, h6 {
   .welcome {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr 1.2fr 1fr;
-    grid-template-rows: 1fr 1.2fr 1fr; }
+    -ms-grid-rows: 1.1fr 1fr 1fr;
+    grid-template-rows: 1.1fr 1fr 1fr; }
   .fullMenu__wrapper h2.third_title {
     font-size: 32px; }
   .fullMenu__wrapper h2.first_title {
@@ -284,4 +284,44 @@ h1, h2, h3, h4, h5, h6 {
   .welcome__nav .nav li {
     font-size: 22px; }
   .welcome__fullMenu {
-    margin: 5px auto 0; } }
+    margin: 5px auto 0; }
+  .welcome .grid-item {
+    height: auto; }
+  .welcome__secrets .secrets__position {
+    margin: 55px auto 0; }
+  .logo__wrapper {
+    max-width: 212px; } }
+
+@media (max-width: 671px) {
+  .welcome__nav .nav li {
+    font-size: 18px; }
+  .welcome__secrets .secrets__position {
+    margin: 35px auto 0; }
+  .welcome__fullMenu {
+    max-width: 380px; } }
+
+@media (max-width: 541px) {
+  .welcome__nav .nav li {
+    font-size: 16px; } }
+
+@media (max-width: 505px) {
+  .welcome__nav .nav li {
+    font-size: 12px;
+    margin: 0 5px; }
+  .fullMenu__wrapper h2.third_title {
+    font-size: 20px; }
+  .fullMenu__wrapper .first_title {
+    max-width: 165px; }
+  .fullMenu__wrapper h2.first_title {
+    font-size: 20px; }
+  .fullMenu__wrapper h2.second_title {
+    font-size: 20px;
+    max-width: 200px; }
+  .welcome__fullMenu {
+    max-width: 280px; } }
+
+@media (max-width: 410px) {
+  .welcome__nav .nav li {
+    font-size: 10px; }
+  .welcome .grid-item {
+    padding: 30px; } }
