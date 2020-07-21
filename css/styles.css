@@ -390,9 +390,9 @@ h1, h2, h3, h4, h5, h6 {
   -ms-flex-align: center;
   align-items: center; }
   .contacts .contacts__wrapper {
-    width: 568px;
-    height: 330px;
-    padding: 79.5px 68px;
+    max-width: 568px;
+    max-height: 330px;
+    padding: 70px 60px;
     background: url(../image/icons/table.png) center/cover no-repeat;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -569,7 +569,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 541px) {
   .welcome__nav .nav li {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .contacts .contacts__wrapper {
+    padding: 39px 34px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .contacts .contacts__wrapper {
+    padding: 55px; } }
 
 @media (max-width: 505px) {
   .welcome__nav .nav li {
@@ -589,7 +596,27 @@ h1, h2, h3, h4, h5, h6 {
   .list__paragraph img {
     margin-right: 15px; }
   .menu__paragraph .paragraph__info {
-    margin: 31px auto 31px; } }
+    margin: 31px auto 31px; }
+  .contacts__wrapper .contacts__info img {
+    margin: 0 10px 0 0; }
+  .contacts__wrapper .contacts__info .name {
+    margin: 0 20px 0 0; }
+  .contacts .contacts__wrapper {
+    padding: 40px; }
+  .contacts .contacts__wrapper h2 {
+    font-size: 20px;
+    margin: 0 0 20px; }
+  .contacts .contacts__wrapper .contacts__info {
+    margin: 0 0 19px; }
+    .contacts .contacts__wrapper .contacts__info img {
+      width: 40px;
+      height: 30px; }
+    .contacts .contacts__wrapper .contacts__info .name {
+      font-size: 14px; }
+    .contacts .contacts__wrapper .contacts__info p {
+      font-size: 14px; }
+    .contacts .contacts__wrapper .contacts__info div {
+      width: 111px; } }
 
 @media (max-width: 410px) {
   .welcome__nav .nav li {
@@ -607,4 +634,25 @@ h1, h2, h3, h4, h5, h6 {
   .menu__list .list__paragraph {
     margin-left: 10px; }
   .menu .menu__subtitle {
-    margin-left: 10px; } }
+    margin-left: 10px; }
+  .contacts .contacts__wrapper {
+    padding: 24px; }
+    .contacts .contacts__wrapper h2 {
+      font-size: 14px; }
+    .contacts .contacts__wrapper .contacts__info {
+      margin: 0 0 19px; }
+      .contacts .contacts__wrapper .contacts__info img {
+        width: 40px;
+        height: 30px; }
+      .contacts .contacts__wrapper .contacts__info .name {
+        font-size: 12px; }
+      .contacts .contacts__wrapper .contacts__info p {
+        font-size: 12px; }
+      .contacts .contacts__wrapper .contacts__info div {
+        width: 111px;
+        padding: 4px 0 0; }
+    .contacts .contacts__wrapper button {
+      width: 110px;
+      height: 22px; }
+      .contacts .contacts__wrapper button p {
+        font-size: 10px; } }

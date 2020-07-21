@@ -293,9 +293,9 @@
 	justify-content: center;
 	align-items: center;
 	.contacts__wrapper {
-		width: 568px;
-		height: 330px;
-		padding: 79.5px 68px;
+		max-width: 568px;
+		max-height: 330px;
+		padding: 70px 60px;
 		background: url(../image/icons/table.png) center/cover no-repeat;
 		display: flex;
 		flex-direction: column;
