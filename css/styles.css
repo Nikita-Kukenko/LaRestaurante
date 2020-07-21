@@ -319,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu__paragraph {
   height: 300px;
-  background: url(../image/pastaWithTomato.png);
+  background: url(../image/pastaWithTomato.png) no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -452,11 +452,25 @@ h1, h2, h3, h4, h5, h6 {
     -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; }
   .menu__paragraph .paragraph__info {
-    height: 245px; }
+    height: 245px;
+    margin: 31px auto 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .menu__paragraph .paragraph__info h2 {
+    text-align: center; }
   .menu__paragraph .paragraph__info p {
-    height: 90px;
+    height: 75px;
     font-size: 20px;
-    color: black; }
+    color: black;
+    text-align: center; }
   .menu__paragraph .paragraph__info a {
     margin-bottom: 15px;
     font-size: 16px; } }
@@ -491,7 +505,7 @@ h1, h2, h3, h4, h5, h6 {
   .list__paragraph img {
     margin-right: 15px; }
   .menu__paragraph .paragraph__info {
-    margin: 31px 47px 31px 0; } }
+    margin: 31px auto 31px; } }
 
 @media (max-width: 410px) {
   .welcome__nav .nav li {
@@ -503,6 +517,10 @@ h1, h2, h3, h4, h5, h6 {
   .list__paragraph img {
     display: none; }
   .menu__paragraph .paragraph__info {
-    margin: 31px 0 31px; }
+    margin: 31px auto 31px; }
   .menu__paragraph .paragraph__info p {
-    width: 320px; } }
+    width: 320px; }
+  .menu__list .list__paragraph {
+    margin-left: 10px; }
+  .menu .menu__subtitle {
+    margin-left: 10px; } }

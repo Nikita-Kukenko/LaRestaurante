@@ -103,11 +103,19 @@
 	}
 	.menu__paragraph .paragraph__info {
 		height: 245px;
+		margin: 31px auto 31px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.menu__paragraph .paragraph__info h2 {
+		text-align: center;
 	}
 	.menu__paragraph .paragraph__info p {
-		height: 90px;
+		height: 75px;
 		font-size: 20px;
 		color: black;
+		text-align: center;
 	}
 	.menu__paragraph .paragraph__info a {
 		margin-bottom: 15px;
@@ -158,7 +166,7 @@
 		margin-right: 15px;
 	}
 	.menu__paragraph .paragraph__info {
-		margin: 31px 47px 31px 0;
+		margin: 31px auto 31px;
 	}
 }
 
@@ -176,9 +184,15 @@
 		display: none;
 	}
 	.menu__paragraph .paragraph__info {
-		margin: 31px 0 31px;
+		margin: 31px auto 31px;
 	}
 	.menu__paragraph .paragraph__info p {
 		width: 320px;
+	}
+	.menu__list .list__paragraph {
+		margin-left: 10px;
+	}
+	.menu .menu__subtitle {
+		margin-left: 10px;
 	}
 }
