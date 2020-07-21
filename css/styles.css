@@ -479,6 +479,11 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  .footer__wrapper .adaptive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 74px 0 0; }
   .footer__wrapper .footer__list {
     margin: 0 79px 0 0; }
     .footer__wrapper .footer__list h2 {
@@ -499,8 +504,7 @@ h1, h2, h3, h4, h5, h6 {
       color: #bbbbbb; }
 
 .footer__input {
-  height: 91px;
-  margin: 0 0 0 120px; }
+  height: 91px; }
   .footer__input h2 {
     font-family: MyriadPro-It;
     font-size: 22px;

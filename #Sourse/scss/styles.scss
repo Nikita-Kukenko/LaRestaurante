@@ -373,6 +373,10 @@
 	min-height: 116px;
 	border: 1px solid red;
 	display: flex;
+	.adaptive {
+		display: flex;
+		margin: 0 74px 0 0;
+	}
 	.footer__list {
 		margin: 0 79px 0 0;
 		h2 {
@@ -398,7 +402,6 @@
 
 .footer__input {
 			height: 91px;
-			margin: 0 0 0 120px;
 			h2 {
 				font-family: MyriadPro-It;
 				font-size: 22px;
