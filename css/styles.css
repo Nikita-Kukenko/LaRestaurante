@@ -377,6 +377,88 @@ h1, h2, h3, h4, h5, h6 {
         color: #2b2b2b;
         text-align: center; }
 
+.contacts {
+  height: 490px;
+  background: url(../image/fone.png) center/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .contacts .contacts__wrapper {
+    width: 568px;
+    height: 330px;
+    padding: 79.5px 68px;
+    background: url(../image/icons/table.png) center/cover no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .contacts .contacts__wrapper h2 {
+      font-family: MyriadPro-It;
+      font-size: 28px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #000000;
+      margin: 0 0 40px; }
+    .contacts .contacts__wrapper button {
+      width: 130px;
+      height: 32px;
+      background-color: #f1ac11;
+      border-radius: 2px;
+      -webkit-box-shadow: 0 2px 0 #b47d00;
+      box-shadow: 0 2px 0 #b47d00; }
+    .contacts .contacts__wrapper button p {
+      font-family: MyriadPro-It;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #2b2b2b; }
+  .contacts .contacts__info {
+    max-width: 432px;
+    height: 44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 0 38px; }
+    .contacts .contacts__info img {
+      margin: 0 20px 0 0; }
+    .contacts .contacts__info .name {
+      margin: 0 60px 0 0;
+      font-family: MyriadPro;
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      color: #f3b731; }
+    .contacts .contacts__info div {
+      width: 145px;
+      height: 37px; }
+    .contacts .contacts__info p {
+      font-family: MyriadPro-It;
+      font-size: 17px;
+      line-height: 1.2;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      color: #000000; }
+
 @media (max-width: 1756px) {
   .welcome .grid-item {
     height: 903px; }

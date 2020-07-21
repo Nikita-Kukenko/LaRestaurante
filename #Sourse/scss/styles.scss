@@ -286,7 +286,79 @@
 	}
 }
 
-.contacts {}
+.contacts {
+	height: 490px;
+	background: url(../image/fone.png) center/cover no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.contacts__wrapper {
+		width: 568px;
+		height: 330px;
+		padding: 79.5px 68px;
+		background: url(../image/icons/table.png) center/cover no-repeat;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		h2 {
+			font-family: MyriadPro-It;
+			font-size: 28px;
+			line-height: 1.2;
+			font-weight: 400;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			color: #000000;
+			margin: 0 0 40px;
+		}
+		button {
+			width: 130px;
+			height: 32px;
+			background-color: #f1ac11;
+			border-radius: 2px;
+			box-shadow: 0 2px 0 #b47d00;
+		}
+		button p {
+			font-family: MyriadPro-It;
+			font-size: 14px;
+			line-height: 1.2;
+			font-weight: 400;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			color: #2b2b2b;
+		}
+	}
+	.contacts__info {
+		max-width: 432px;
+		height: 44px;
+		display: flex;
+		align-items: center;
+		margin: 0 0 38px;
+		img {
+			margin: 0 20px 0 0;
+		}
+		.name {
+			margin: 0 60px 0 0;
+			font-family: MyriadPro;
+			font-size: 20px;
+			line-height: 1.2;
+			font-weight: 400;
+			letter-spacing: 0.05em;
+			color: #f3b731;
+		}
+		div {
+			width: 145px;
+			height: 37px;
+		}
+		p {
+			font-family: MyriadPro-It;
+			font-size: 17px;
+			line-height: 1.2;
+			font-weight: 400;
+			letter-spacing: 0.05em;
+			color: #000000;
+		}
+	}
+}
 
 .footer {}
 
