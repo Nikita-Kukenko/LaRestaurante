@@ -459,6 +459,116 @@ h1, h2, h3, h4, h5, h6 {
       letter-spacing: 0.05em;
       color: #000000; }
 
+.footer {
+  background: url(../image/footer_fone.png) center/cover no-repeat;
+  min-height: 274px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.footer__wrapper {
+  width: 1130px;
+  min-height: 116px;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .footer__wrapper .footer__list {
+    margin: 0 79px 0 0; }
+    .footer__wrapper .footer__list h2 {
+      font-size: 22px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #ffffff;
+      margin: 0 0 28px; }
+    .footer__wrapper .footer__list ul li {
+      font-family: MyriadPro-It;
+      font-size: 17px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #bbbbbb; }
+
+.footer__input {
+  height: 91px;
+  margin: 0 0 0 120px; }
+  .footer__input h2 {
+    font-family: MyriadPro-It;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin: 0 0 43px; }
+  .footer__input form {
+    height: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .footer__input form .input {
+      width: 223px;
+      height: 32px;
+      background-color: rgba(255, 255, 255, 0.4);
+      padding: 0 0 0 15px;
+      margin: 0 23px 0 0; }
+    .footer__input form .button {
+      width: 90px;
+      height: 32px;
+      background-color: #f1ac11;
+      border-radius: 2px;
+      -webkit-box-shadow: 0 2px 0 #b47d00;
+      box-shadow: 0 2px 0 #b47d00; }
+      .footer__input form .button p {
+        font-family: MyriadPro-It;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #2b2b2b; }
+    .footer__input form .input::-webkit-input-placeholder {
+      font-family: MyriadPro-It;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: white; }
+    .footer__input form .input::-moz-placeholder {
+      font-family: MyriadPro-It;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: white; }
+    .footer__input form .input:-moz-placeholder {
+      font-family: MyriadPro-It;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: white; }
+    .footer__input form .input:-ms-input-placeholder {
+      font-family: MyriadPro-It;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: white; }
+
 @media (max-width: 1756px) {
   .welcome .grid-item {
     height: 903px; }
