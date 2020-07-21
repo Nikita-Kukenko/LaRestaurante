@@ -465,12 +465,14 @@ h1, h2, h3, h4, h5, h6 {
     -ms-flex-align: center;
     align-items: center; }
   .menu__paragraph .paragraph__info h2 {
-    text-align: center; }
+    text-align: center;
+    font-weight: 700; }
   .menu__paragraph .paragraph__info p {
     height: 75px;
     font-size: 20px;
     color: black;
-    text-align: center; }
+    text-align: center;
+    font-weight: 700; }
   .menu__paragraph .paragraph__info a {
     margin-bottom: 15px;
     font-size: 16px; } }
