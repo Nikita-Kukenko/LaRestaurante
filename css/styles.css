@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .conteiner {
   max-width: 900px;
-  margin: 81px 0 0; }
+  margin: 81px 0 79px; }
 
 .menu {
   display: -ms-grid;
