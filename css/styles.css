@@ -462,6 +462,8 @@ h1, h2, h3, h4, h5, h6 {
 .footer {
   background: url(../image/footer_fone.png) center/cover no-repeat;
   min-height: 274px;
+  max-height: 900px;
+  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -475,7 +477,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer__wrapper {
   width: 1130px;
   min-height: 116px;
-  border: 1px solid red;
+  max-height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -615,7 +617,38 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px; }
   .fullMenu__wrapper h2.second_title {
     font-size: 26px;
-    max-width: 160px; } }
+    max-width: 160px; }
+  .footer__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 600px;
+    min-width: 320px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .footer__wrapper h2 {
+      text-align: center; }
+    .footer__wrapper .adaptive {
+      margin: 0 0 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      width: 600px; }
+      .footer__wrapper .adaptive .footer__list {
+        margin: 0; }
+  .footer__input h2 {
+    margin: 0 0 20px;
+    text-align: center; }
+  .footer__wrapper .footer__list ul li {
+    text-align: center; } }
 
 @media (max-width: 1072px) {
   .welcome {
@@ -679,7 +712,17 @@ h1, h2, h3, h4, h5, h6 {
   .welcome__secrets .secrets__position {
     margin: 35px auto 0; }
   .welcome__fullMenu {
-    max-width: 380px; } }
+    max-width: 380px; }
+  .footer__wrapper .adaptive {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 320px; }
+    .footer__wrapper .adaptive .footer__list {
+      margin: 0 0 20px; }
+    .footer__wrapper .adaptive h2 {
+      margin: 0 0 18px; } }
 
 @media (max-width: 541px) {
   .welcome__nav .nav li {
@@ -730,7 +773,14 @@ h1, h2, h3, h4, h5, h6 {
     .contacts .contacts__wrapper .contacts__info p {
       font-size: 14px; }
     .contacts .contacts__wrapper .contacts__info div {
-      width: 111px; } }
+      width: 111px; }
+  .footer__input form .input {
+    width: 200px;
+    margin: 0 15px 0 0; }
+  .footer__input form .button {
+    width: 70px; }
+  .footer__input h2 {
+    font-size: 20px; } }
 
 @media (max-width: 410px) {
   .welcome__nav .nav li {

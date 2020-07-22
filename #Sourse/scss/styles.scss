@@ -363,6 +363,8 @@
 .footer {
 	background: url(../image/footer_fone.png) center/cover no-repeat;
 	min-height: 274px;
+	max-height: 900px;
+	padding: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -371,7 +373,7 @@
 .footer__wrapper {
 	width: 1130px;
 	min-height: 116px;
-	border: 1px solid red;
+	max-height: 600px;
 	display: flex;
 	.adaptive {
 		display: flex;
