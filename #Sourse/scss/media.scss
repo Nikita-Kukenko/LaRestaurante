@@ -14,7 +14,6 @@
 	}
 	.welcome {
 	grid-template-columns: 1fr 1.2fr 1fr;
-	//
 	}
 }
 
@@ -94,6 +93,12 @@
 	.welcome {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1.1fr 1fr 1fr;
+		border: 0px solid;
+		border-bottom: 3px solid #f1ac11;
+		.line {
+		border-bottom: 3px solid #f1ac11;
+		border-right: 0px solid;
+	}
 	}
 	.fullMenu__wrapper h2.third_title {
 		font-size: 32px;

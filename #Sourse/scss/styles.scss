@@ -9,10 +9,13 @@
 .welcome {
 	display: grid;
 	grid-template-columns: 1fr 1.4fr 1fr;
+	border: 3px solid #f1ac11;
 	.grid-item {
 		height: 1103px;
-		border: 3px solid #f1ac11;
 		padding: 46px;
+	}
+	.line {
+		border-right: 3px solid #f1ac11;
 	}
 }
 .welcome__logo {
@@ -293,6 +296,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-top: 3px solid #f1ac11;
+	border-bottom: 3px solid #f1ac11;
 	.contacts__wrapper {
 		max-width: 568px;
 		max-height: 330px;
