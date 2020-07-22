@@ -779,6 +779,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 31px 27px 31px 0; }
   .list__paragraph img {
     display: none; }
+  .menu {
+    padding: 0; }
   .menu__paragraph .paragraph__info {
     margin: 31px auto 31px; }
   .menu__paragraph .paragraph__info p {
